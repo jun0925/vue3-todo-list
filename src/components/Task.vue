@@ -14,7 +14,8 @@ export default {
   },
   props: {
     task: Object
-  }
+  },
+  emits: ['delete-task']
 }
 </script>
 
